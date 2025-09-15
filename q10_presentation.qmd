@@ -9,6 +9,7 @@ editor: visual
 Michael wants to be a data scientist. And look he can do math:
 
 ```{r}
+print("1 + 1 =")
 print(1 + 1)
 ```
 
@@ -18,11 +19,9 @@ print(1 + 1)
 
 ## Jai
 
-
+This is one of our team members.
 
 ## Shoom
 
+This is another team member.
 
-```{r}
-1 + 1
-```
