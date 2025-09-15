@@ -14,14 +14,25 @@ print(1 + 1)
 
 ## Infinity
 
+## Infinity is improving his sleep schedule.
 
+ - This is how long he has slept for the last week:
+ - Mon: 7hrs
+ - Tue: 3hrs
+ - Wed: 4hrs
+ - Thu: 15hrs
+ - Fri: 9hrs
+ - Sat: 24hrs
+ - Sun: 3hrs
+ - Let's calculate how long on average he slept
+
+```{r}
+print(paste0("On average, he slept for ", (7+3+4+15+9+24+3)/7, " hours last week."))
+```
 
 ## Jai
 
-
-
 ## Shoom
-
 
 ```{r}
 1 + 1
