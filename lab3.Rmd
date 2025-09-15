@@ -132,7 +132,8 @@ own words what the code chunk option is doing.
 1 + 1
 ```
 
-The echo = FALSE option stops the code from being printed to the console when run. Only the results should show.
+The echo = FALSE option stops the code from being printed to the console
+when run. Only the results should show.
 
 #### Multiple code chunk options
 
@@ -202,6 +203,7 @@ so that you include an `author` (yourself) and a `date` (lab due date).
 Include what you added below here as well as a fenced Markdown code
 block.
 
+
 ```{yaml} 
 author: "Infinity", "Michael Eirikson
 date: "20-Sep-2025"
@@ -239,7 +241,11 @@ knit/render the document. Note the different output. Add and commit that
 rendered both the `.html` and `.pdf` files to the GitHub repository for
 this lab and paste the two links below this question.
 
-Link:
+Link to the .html file:
+<https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group05/blob/master/html_yaml.html>
+
+Link to the .pdf file:
+<https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group05/blob/master/html_yaml.pdf>
 
 [html_yaml html](https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group05/blob/master/html_yaml.html)
 [html_yaml pdf](https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group05/blob/master/html_yaml.pdf)
@@ -338,3 +344,4 @@ before exporting!**
 # Save your notebook first, then run this cell to export your submission.
 #ottr::export("lab3.Rmd", pdf = TRUE)
 ```
+
