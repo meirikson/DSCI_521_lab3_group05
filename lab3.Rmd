@@ -97,6 +97,7 @@ Ensure that you can render/knit the document after you add that chunk.
 
 ```{r question2}
 sum_of_some_fib_numbers <- 1 + 1 + 2 + 3 + 5 + 8 + 13
+print(sum_of_some_fib_numbers)
 ```
 
 #### Question 3
@@ -116,7 +117,11 @@ rubric={mechanics:1,reasoning:1}
 Create a new code chunk that uses a code chunk option.
 Write out in your own words what the code chunk option is doing.
 
-YOUR ANSWER GOES HERE
+```{r question4, echo = FALSE}
+1 + 1
+```
+
+The echo = FALSE option stops the code from being printed to the console when run. Only the results should show.
 
 ####  Multiple code chunk options
 
@@ -303,5 +308,5 @@ Make sure you have run all cells in your notebook in order before running the ce
 
 ```{r}
 # Save your notebook first, then run this cell to export your submission.
-ottr::export("lab3.Rmd", pdf = TRUE)
+# ottr::export("lab3.Rmd", pdf = TRUE)
 ```
