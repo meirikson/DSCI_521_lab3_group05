@@ -281,7 +281,9 @@ rubric={mechanics:1,reasoning:1}
     GitHub.ubc.ca in your homework repo? What do you see? How is it
     rendered?
 
-YOUR ANSWER GOES HERE
+Its rendered completely as a .md document. For example even a datafram has been changed to a markdown table.
+
+[simple_adding as github_doc](https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group05/blob/master/simple_adding.md)
 
 #### Question 10
 
