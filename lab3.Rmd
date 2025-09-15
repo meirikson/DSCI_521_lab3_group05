@@ -247,6 +247,9 @@ Link to the .html file:
 Link to the .pdf file:
 <https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group05/blob/master/html_yaml.pdf>
 
+[html_yaml html](https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group05/blob/master/html_yaml.html)
+[html_yaml pdf](https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group05/blob/master/html_yaml.pdf)
+
 #### Question 8
 
 rubric={mechanics:6}

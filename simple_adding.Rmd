@@ -3,8 +3,7 @@ title: "html_yaml"
 author: "Infinity Fu"
 date: "`r Sys.Date()`"
 output:
-  html_document:
-    df_print: paged
+  github_document:
 ---
 
 ## New Section 1
