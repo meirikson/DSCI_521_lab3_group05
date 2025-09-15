@@ -95,7 +95,9 @@ Create a new code chunk below using the r language engine that runs some R code
 but it should have an output).
 Ensure that you can render/knit the document after you add that chunk.
 
-YOUR ANSWER GOES HERE
+```{r question2}
+sum_of_some_fib_numbers <- 1 + 1 + 2 + 3 + 5 + 8 + 13
+```
 
 #### Question 3
 rubric={mechanics:1}
