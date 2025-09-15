@@ -1,7 +1,7 @@
 ---
 title: "Lab 3 - Introduction to RStudio and R Markdown. Presentations"
-author: "Infinity"
-deadline: "20-sep-2025"
+author: "Infinity, Michael Eirikson"
+date: "20-Sep-2025"
 output:
   html_document:
     toc: true
@@ -203,9 +203,9 @@ so that you include an `author` (yourself) and a `date` (lab due date).
 Include what you added below here as well as a fenced Markdown code
 block.
 
-```         
-author: "Infinity"
-deadline: "20-sep-2025"
+```     
+author: "Infinity", "Michael Eirikson
+date: "20-Sep-2025"
 ```
 
 ### Creating R Markdown documents
