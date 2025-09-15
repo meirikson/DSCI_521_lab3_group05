@@ -55,7 +55,7 @@ You receive mark for submitting your lab correctly, please follow these instruct
 - Upload a `.Rmd` version of your assignment to Gradescope.
 - Include a clickable link to your GitHub repo for the lab just below this cell (it should look something like this https://github.ubc.ca/MDS-2022-23/DSCI_521_labX_yourcwl).
 
-YOUR LAB GITHUB REPO LINK GOES HERE
+[Repo Link](https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group05)
 
 ## Editing R Markdown documents
 
