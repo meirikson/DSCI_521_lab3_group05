@@ -203,7 +203,8 @@ so that you include an `author` (yourself) and a `date` (lab due date).
 Include what you added below here as well as a fenced Markdown code
 block.
 
-```         
+
+```{yaml} 
 author: "Infinity", "Michael Eirikson
 date: "20-Sep-2025"
 ```
@@ -262,6 +263,9 @@ rubric={mechanics:6}
     answer below.
 
 YOUR ANSWER GOES HERE
+
+[rmd file](https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group05/blob/master/simple_adding.Rmd)
+[html file](https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group05/blob/master/simple_adding.html)
 
 #### Question 9 (Optional)
 

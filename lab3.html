@@ -9,6 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="Infinity, Michael Eirikson" />
 
 
 <title>Lab 3 - Introduction to RStudio and R Markdown. Presentations</title>
@@ -350,6 +351,8 @@ display: none;
 
 <h1 class="title toc-ignore">Lab 3 - Introduction to RStudio and R
 Markdown. Presentations</h1>
+<h4 class="author">Infinity, Michael Eirikson</h4>
+<h4 class="date">20-Sep-2025</h4>
 
 </div>
 
@@ -420,7 +423,8 @@ Gradescope.</li>
 <li>Include a clickable link to your GitHub repo for the lab just below
 this cell (it should look something like this <a href="https://github.ubc.ca/MDS-2022-23/DSCI_521_labX_yourcwl" class="uri">https://github.ubc.ca/MDS-2022-23/DSCI_521_labX_yourcwl</a>).</li>
 </ul>
-<p>YOUR LAB GITHUB REPO LINK GOES HERE</p>
+<p><a href="https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group05">Repo
+Link</a></p>
 </div>
 <div id="editing-r-markdown-documents" class="section level2">
 <h2>Editing R Markdown documents</h2>
@@ -439,9 +443,9 @@ the top right corner of the chunk.</p>
 <h4>Question 1</h4>
 <p>rubric={correctness:1}</p>
 <p>As you work on this lab you will be rendering the document(s). Please
-make sure all source and redered documents are in the repository.</p>
+make sure all source and rendered documents are in the repository.</p>
 <p>I’ve talked in class about making sure you ignore rendered output,
-but for this assignment we’ll treat it as an exception becuause we want
+but for this assignment we’ll treat it as an exception because we want
 to confirm that the documents are properly formatted and rendering.</p>
 <p>Nothing to post. We will be looking at your final repository
 contents.</p>
@@ -453,7 +457,9 @@ contents.</p>
 some R code (it does not need to be complicated, but it should have an
 output). Ensure that you can render/knit the document after you add that
 chunk.</p>
-<p>YOUR ANSWER GOES HERE</p>
+<pre class="r"><code>sum_of_some_fib_numbers &lt;- 1 + 1 + 2 + 3 + 5 + 8 + 13
+print(sum_of_some_fib_numbers)</code></pre>
+<pre><code>## [1] 33</code></pre>
 </div>
 <div id="question-3" class="section level4">
 <h4>Question 3</h4>
@@ -468,7 +474,9 @@ ensure everything is still working.</p>
 <p>rubric={mechanics:1,reasoning:1}</p>
 <p>Create a new code chunk that uses a code chunk option. Write out in
 your own words what the code chunk option is doing.</p>
-<p>YOUR ANSWER GOES HERE</p>
+<pre><code>## [1] 2</code></pre>
+<p>The echo = FALSE option stops the code from being printed to the
+console when run. Only the results should show.</p>
 </div>
 <div id="multiple-code-chunk-options" class="section level4">
 <h4>Multiple code chunk options</h4>
@@ -484,9 +492,8 @@ but not output the results, then we can add the
 <p>Create a new code chunk that uses at least two code chunk options. At
 least one must be different to the ones mentioned above. Write in your
 own words what each code chunk option is doing.</p>
-<p>YOUR ANSWER GOES HERE</p>
-<p>the include=TRUE options let the knitr include the chunk, and
-warning=FALSE suppresses warning messages.</p>
+<p>Answer: The include=TRUE options let the knitr include the chunk and
+its output, and warning=FALSE suppresses warning messages.</p>
 </div>
 </div>
 <div id="yaml-header-and-document-output-options" class="section level3">
@@ -531,7 +538,8 @@ html)</li>
 it so that you include an <code>author</code> (yourself) and a
 <code>date</code> (lab due date). Include what you added below here as
 well as a fenced Markdown code block.</p>
-<p>YOUR ANSWER GOES HERE</p>
+<pre class="yaml"><code>author: &quot;Infinity&quot;, &quot;Michael Eirikson
+date: &quot;20-Sep-2025&quot;</code></pre>
 </div>
 </div>
 <div id="creating-r-markdown-documents" class="section level3">
@@ -583,6 +591,9 @@ push/upload the file to your GitHub repository for this homework. Paste
 a link to these files as your answer below.</p></li>
 </ol>
 <p>YOUR ANSWER GOES HERE</p>
+<p><a href="https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group05/blob/master/simple_adding.Rmd">rmd
+file</a> <a href="https://github.ubc.ca/mds-2025-26/DSCI_521_lab3_group05/blob/master/simple_adding.html">html
+file</a></p>
 </div>
 <div id="question-9-optional" class="section level4">
 <h4>Question 9 (Optional)</h4>
