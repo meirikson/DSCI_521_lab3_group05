@@ -2,6 +2,7 @@
 title: "Our Group Members"
 format: revealjs
 editor: visual
+output-dir: docs
 ---
 
 ## Michael
