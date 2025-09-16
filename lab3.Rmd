@@ -310,6 +310,8 @@ rubric={mechanics:6}
 
 YOUR ANSWER GOES HERE
 
+[link to presentation](https://meirikson.github.io/DSCI_521_lab3_group05/#/title-slide)
+
 #### (Challenging) Question 11
 
 rubric={reasoning}

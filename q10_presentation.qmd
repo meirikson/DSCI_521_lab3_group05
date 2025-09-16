@@ -2,21 +2,33 @@
 title: "Our Group Members"
 format: revealjs
 editor: visual
-output-dir: docs
 ---
 
+## Our group members are
+
+```{r}
+members <- c('Infinity', 'Michael', 'Jai', 'Shoom')
+for (member in members) {
+  print(member)
+}
+
+```
+
 ## Michael
+
+### Michael
 
 Michael wants to be a data scientist. And look he can do math:
 
 ```{r}
-print("1 + 1 =")
-print(1 + 1)
+print(paste('1 + 1 =', 1 + 1))
 ```
+
+
 
 ## Infinity
 
-## Infinity is improving his sleep schedule.
+### Infinity is improving his sleep schedule.
 
  - This is how long he has slept for the last week:
  - Mon: 7hrs
