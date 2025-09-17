@@ -120,7 +120,7 @@ Don't forget to knit/render the document after you make this change to
 ensure everything is still working.
 
 ```{r Meaningful name}
-
+print('This is a very meaningful print statement')
 ```
 
 #### Question 4
@@ -152,11 +152,13 @@ Create a new code chunk that uses at least two code chunk options. At
 least one must be different to the ones mentioned above. Write in your
 own words what each code chunk option is doing.
 
-```{r Chunk Options, include=TRUE, warning=FALSE}
+```{r Chunk Options, include = TRUE, warning = FALSE, echo = TRUE}
+1 + 2
 ```
 
-Answer: The include=TRUE options let the knitr include the chunk and its
-output, and warning=FALSE suppresses warning messages.
+Answer: The include = TRUE options let the knitr include the chunk and its
+output, and warning = FALSE suppresses warning messages and echo = TRUE makes
+sure the code is output not just the results.
 
 ### YAML Header and document output options
 
@@ -206,9 +208,11 @@ Include what you added below here as well as a fenced Markdown code
 block.
 
 
-```{yaml} 
+```
+---
 author: "Infinity", "Michael Eirikson
 date: "20-Sep-2025"
+---
 ```
 
 ### Creating R Markdown documents
