@@ -7,7 +7,7 @@ editor: visual
 ## Our group members are
 
 ```{r}
-members <- c('Infinity', 'Michael', 'Jai', 'Shoom')
+members <- c('Infinity', 'Michael', 'Jai', 'Shoon')
 for (member in members) {
   print(member)
 }
@@ -24,21 +24,19 @@ Michael wants to be a data scientist. And look he can do math:
 print(paste('1 + 1 =', 1 + 1))
 ```
 
-
-
 ## Infinity
 
 ### Infinity is improving his sleep schedule.
 
- - This is how long he has slept for the last week:
- - Mon: 7hrs
- - Tue: 3hrs
- - Wed: 4hrs
- - Thu: 15hrs
- - Fri: 9hrs
- - Sat: 24hrs
- - Sun: 3hrs
- - Let's calculate how long on average he slept
+-   This is how long he has slept for the last week:
+-   Mon: 7hrs
+-   Tue: 3hrs
+-   Wed: 4hrs
+-   Thu: 15hrs
+-   Fri: 9hrs
+-   Sat: 24hrs
+-   Sun: 3hrs
+-   Let's calculate how long on average he slept
 
 ```{r}
 print(paste0("On average, he slept for ", (7+3+4+15+9+24+3)/7, " hours last week."))
@@ -48,8 +46,15 @@ print(paste0("On average, he slept for ", (7+3+4+15+9+24+3)/7, " hours last week
 
 This is one of our team members.
 
-## Shoom
+## Shoon
 
-This is another team member.
+Shoon loves cooking different cuisines.\
+Here’s what she might cook tonight:
 
+```{r}
 
+dinners <- c("Burmese curry", "Thai noodles", "Mexican tacos", 
+             "Japanese sushi", "Italian pasta")
+
+sample(dinners, 1)
+```
