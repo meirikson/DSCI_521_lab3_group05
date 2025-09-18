@@ -324,7 +324,7 @@ YOUR ANSWER GOES HERE
 
 Link to presentation
 
-<https://meirikson.github.io/DSCI_521_lab3_group05/#/title-slide>
+<https://meirikson.github.io/DSCI_521_lab3_group05/q10_presentation.html>
 
 Link to repo
 
