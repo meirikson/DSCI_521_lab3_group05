@@ -207,9 +207,12 @@ so that you include an `author` (yourself) and a `date` (lab due date).
 Include what you added below here as well as a fenced Markdown code
 block.
 
+ q11-shoon
+```{yaml}
 
 ```
 ---
+master
 author: "Infinity", "Michael Eirikson
 date: "20-Sep-2025"
 ---
@@ -291,7 +294,8 @@ rubric={mechanics:1,reasoning:1}
     GitHub.ubc.ca in your homework repo? What do you see? How is it
     rendered?
 
-Its rendered completely as a .md document. For example even a datafram has been changed to a markdown table.
+Its rendered completely as a .md document. For example even a datafram
+has been changed to a markdown table.
 
 Link to github_document file:
 
@@ -339,7 +343,34 @@ tools (e.g., R Markdown and Jupyter) and non-reproducible tools (Word,
 Powerpoint, Keynote, etc) for presentations and reports. Include
 advantages and disadvantages for each.
 
-YOUR ANSWER GOES HERE
+When choosing tools for presentations and reports, there is a
+fundamental distinction between reproducible tools (like R Markdown and
+Jupyter) and non-reproducible tools (like Word and PowerPoint).
+Reproducible tools allow users to combine executable code with narrative
+text in a single document. The primary advantage is complete
+reproducibility – when an error is discovered in calculations (as
+described in Activity 1 from the lecture), the code can be corrected and
+the entire document re-rendered, automatically updating all affected
+results throughout the report. This eliminates manual updates and
+ensures consistency across the document. As the lecture materials
+explain, these tools create dynamic documents where "the rendering of
+the plots, figures, and tables next to the text in a manuscript allows
+giving valuable context to the visualizations." However, these tools
+require programming knowledge and present a steeper learning curve for
+users.
+
+Non-reproducible tools like Word, PowerPoint, and Keynote offer
+user-friendly interfaces and sophisticated design capabilities,
+providing extensive formatting options without requiring technical
+expertise. However, their major limitation lies in manual processes –
+correcting a calculation error would require users to manually locate
+and update every affected table, figure, and result throughout the
+document, a process that is time-consuming and prone to human error.
+Reproducible tools are most suitable for data-intensive projects that
+require regular updates and where accuracy is paramount, while
+non-reproducible tools remain appropriate for presentations where design
+flexibility and ease of use take precedence over computational
+reproducibility.
 
 ## Free Point
 
@@ -364,4 +395,3 @@ before exporting!**
 # Save your notebook first, then run this cell to export your submission.
 #ottr::export("lab3.Rmd", pdf = TRUE)
 ```
-

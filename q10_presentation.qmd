@@ -5,9 +5,13 @@ editor: visual
 ---
 
 ## Our group members are
+q11-shoon
+```{r}
+members <- c('Infinity', 'Michael', 'Jai', 'Shoon')
 
 ```{r echo = TRUE}
 members <- c('Infinity', 'Michael', 'Jai', 'Shoom')
+master
 for (member in members) {
   print(member)
 }
@@ -46,6 +50,19 @@ print(paste0("On average, he slept for ", (7+3+4+15+9+24+3)/7, " hours last week
 
 This is one of our team members.
 
-## Shoom
+## Shoon
+
+q11-shoon
+Shoon loves cooking different cuisines.\
+Here’s what she might cook tonight:
+
+```{r}
+
+dinners <- c("Burmese curry", "Thai noodles", "Mexican tacos", 
+             "Japanese sushi", "Italian pasta")
+
+sample(dinners, 1)
+```
 
 This is another team member.
+master
