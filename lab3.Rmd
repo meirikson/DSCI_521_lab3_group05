@@ -207,13 +207,11 @@ so that you include an `author` (yourself) and a `date` (lab due date).
 Include what you added below here as well as a fenced Markdown code
 block.
 
- q11-shoon
+q11-shoon
 ```{yaml}
-
-```
 ---
 master
-author: "Infinity", "Michael Eirikson
+author: "Infinity", "Michael Eirikson"
 date: "20-Sep-2025"
 ---
 ```
