@@ -6,8 +6,8 @@
 <script src="q10_presentation_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="q10_presentation_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="q10_presentation_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="q10_presentation_files/libs/quarto-html/quarto-syntax-highlighting-ea1d7ac60288e0f1efdbc993fd8432ae.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.8.21">
+<link href="q10_presentation_files/libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.33">
 
   <title>Our Group Members</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -94,7 +94,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="q10_presentation_files/libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
+  <link rel="stylesheet" href="q10_presentation_files/libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
   <link href="q10_presentation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="q10_presentation_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="q10_presentation_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -200,16 +200,13 @@
 </section>
 <section id="our-group-members-are" class="slide level2">
 <h2>Our group members are</h2>
+<p>q11-shoon</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href=""></a>members <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">'Infinity'</span>, <span class="st">'Michael'</span>, <span class="st">'Jai'</span>, <span class="st">'Shoom'</span>)</span>
-<span id="cb1-2"><a href=""></a><span class="cf">for</span> (member <span class="cf">in</span> members) {</span>
-<span id="cb1-3"><a href=""></a>  <span class="fu">print</span>(member)</span>
-<span id="cb1-4"><a href=""></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "Infinity"
 [1] "Michael"
 [1] "Jai"
-[1] "Shoon"</code></pre>
+[1] "Shoom"</code></pre>
 </div>
 </div>
 </section>
@@ -218,7 +215,7 @@
 <h3 id="michael-1">Michael</h3>
 <p>Michael wants to be a data scientist. And look he can do math:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href=""></a><span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">'1 + 1 ='</span>, <span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href=""></a><span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">'1 + 1 ='</span>, <span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "1 + 1 = 2"</code></pre>
 </div>
@@ -250,13 +247,14 @@
 </section>
 <section id="shoon" class="slide level2">
 <h2>Shoon</h2>
-<p>Shoon loves cooking different cuisines.<br>
+<p>q11-shoon Shoon loves cooking different cuisines.<br>
 Here’s what she might cook tonight:</p>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "Burmese curry"</code></pre>
 </div>
 </div>
+<p>This is another team member. master</p>
 
 </section>
     </div>
@@ -448,7 +446,7 @@ Here’s what she might cook tonight:</p>
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -475,80 +473,42 @@ Here’s what she might cook tonight:</p>
       });
     </script>
     
-
     <script>
-
       // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-
       // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-
       // slide changes (different for each slide format).
-
       (function () {
-
         // dispatch for htmlwidgets
-
         function fireSlideEnter() {
-
           const event = window.document.createEvent("Event");
-
           event.initEvent("slideenter", true, true);
-
           window.document.dispatchEvent(event);
-
         }
-
-    
 
         function fireSlideChanged(previousSlide, currentSlide) {
-
           fireSlideEnter();
 
-    
-
           // dispatch for shiny
-
           if (window.jQuery) {
-
             if (previousSlide) {
-
               window.jQuery(previousSlide).trigger("hidden");
-
             }
-
             if (currentSlide) {
-
               window.jQuery(currentSlide).trigger("shown");
-
             }
-
           }
-
         }
-
-    
 
         // hookup for slidy
-
         if (window.w3c_slidy) {
-
           window.w3c_slidy.add_observer(function (slide_num) {
-
             // slide_num starts at position 1
-
             fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-
           });
-
         }
 
-    
-
       })();
-
     </script>
-
-    
 
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
